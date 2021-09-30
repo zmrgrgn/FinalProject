@@ -19,7 +19,6 @@ namespace Core.Aspects.Autofac.Validation
             {
                 throw new System.Exception("Bu bir doğrulama sınıfı değildir");
             }
-
             _validatorType = validatorType;
         }
         protected override void OnBefore(IInvocation invocation)
